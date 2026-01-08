@@ -1,0 +1,14 @@
+data:
+  sources:
+    - name: transactions
+      path: data/external
+      filename: data.csv
+      file_type: csv
+
+    - name: orders
+      path: data/external
+      filename: data.xlsx
+      file_type: excel
+
+  raw_path: data/raw
+
